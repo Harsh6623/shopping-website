@@ -9,7 +9,7 @@ const HeaderTop = () => {
         <div className="flex justify-between items-center">
           <div className="hidden lg:flex gap-1">
             <div className="header_top__icon_wrapper">
-              <BsFacebook />  
+              <BsFacebook />
             </div>
             <div className="header_top__icon_wrapper">
               <BsTwitter />

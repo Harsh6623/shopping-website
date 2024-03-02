@@ -30,4 +30,8 @@
     scale: 1;
 }
 
+.container {
+    max-width: 1499px;
+}
+
 }
