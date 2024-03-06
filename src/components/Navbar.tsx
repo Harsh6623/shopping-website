@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link className="navbar__link relative" href="#">
             PERFUME
           </Link>
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="About">
             ABOUT US
           </Link>
           <Link className="navbar__link relative" href="Contact">

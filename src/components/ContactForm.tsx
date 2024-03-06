@@ -14,7 +14,6 @@ const ContactForm = () => {
     const handleSubmit = (e:handleSubmitprops) => {
         e.preventDefault();
         
-        // Basic validation
         if (!fullname || !email || !message) {
             setErrorMessage('Please fill out all fields.');
             return;
@@ -24,7 +23,6 @@ const ContactForm = () => {
         console.log("Email: ", email);
         console.log("Message: ", message);
 
-        // Clear error message if submission is successful
         setErrorMessage('');
     }
 
