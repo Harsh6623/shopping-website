@@ -1,60 +1,60 @@
 import React from "react";
-import WoMenProduct from "@/components/WomenProduct";
+import PerfumeProduct from "@/components/PerfumeProduct";
 
 const productsData = [
   {
-    img: "/ms1.jpg",
-    title: "saree",
-    desc: "Tometo Color Desinging Sarre ",
+    img: "/p1.jpg",
+    title: "Perfume",
+    desc: "YSL Black Opium Eau de Parfum.",
     rating: 4,
     price: "45.00",
   },
-  { 
-    img: "/ms2.jpg",
-    title: "saree",
-    desc: "Full Black Super Aeligent Sarre",
+  {
+    img: "/p11.webp",
+    title: "Perfume",
+    desc: "Mugler Goddess ",
     rating: 5,
     price: "55.00",
   },
   {
-    img: "/ms3.jpg",
-    title: "saree",
-    desc: "Blure Sarre With White Chex Pattern",
+    img: "/p3.jpg",
+    title: "Perfume",
+    desc: "Carolina Girl Eau de Parfum.",
     rating: 3,
     price: "25.00",
   },
   {
-    img: "/ms4.jpg",
-    title: "saree",
-    desc: "Dark And Light Yellow Mix sarre",
+    img: "/p4.jpg",
+    title: "Perfume",
+    desc: "Viktor & Rolf Eau de Parfum.",
     rating: 4,
     price: "45.00",
   },
   {
-    img: "/w1.webp",
-    title: "T-Shirt",
-    desc: "Harry Potter: Snitch Please",
+    img: "/p6.jpg",
+    title: "Perfume",
+    desc: "Paco Rabanne Lady Million Eau de Parfum.",
     rating: 3,
     price: "58.00",
   },
   {
-    img: "/w2.webp",
-    title: "Hoodie",
-    desc: "Black Hoodie",
+    img: "/p7.webp",
+    title: "Perfume",
+    desc: "Lancome La Vie Est Belle Eau de Parfum.",
     rating: 4,
     price: "100.00",
   },
   {
-    img: "/w3.webp",
-    title: "T-Shirt",
-    desc: "Bugs Bunny: Samurai ",
+    img: "/p8.webp",
+    title: "Perfume",
+    desc: "Jean Paul Gaultier Scandal Cloud Le Parfum.",
     rating: 4,
     price: "120.00",
   },
   {
-    img: "/w4.webp",
-    title: "T-Shirt",
-    desc: "Character Pattern",
+    img: "/p9.webp",
+    title: "Perfume",
+    desc: "Ariana Grande Cloud Eau de Parfum",
     rating: 4,
     price: "120.00",
   }
@@ -64,11 +64,11 @@ const NewProducts = () => {
   return (
     <div>
       <div className="container pt-8">
-        <h2 className="font-medium text-2xl pb-5 text-center">Women Products</h2>
+        <h2 className="font-medium text-2xl pb-5 text-center">Perfume Products</h2>
 
         <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4 gap-10 xl:gap-x-20 xl:gap-y-10">
           {productsData.map((item, index) => (
-            <WoMenProduct
+            <PerfumeProduct
               key={index}
               img={item.img}
               title={item.title}

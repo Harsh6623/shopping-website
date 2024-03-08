@@ -15,10 +15,10 @@ const Navbar = () => {
           <Link className="navbar__link relative" href="Women">
             WOMEN'S
           </Link>
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="jewellery">
             JEWELRY
           </Link>
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="Perfume">
             PERFUME
           </Link>
           <Link className="navbar__link relative" href="About">

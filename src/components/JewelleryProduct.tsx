@@ -11,7 +11,7 @@ interface propsType {
   price: string;
 }
 
-const WoMenProduct: React.FC<propsType> = ({
+const JewelleryProduct: React.FC<propsType> = ({
   img,
   title,
   desc,
@@ -133,4 +133,4 @@ const WoMenProduct: React.FC<propsType> = ({
   );
 };
 
-export default WoMenProduct;
+export default JewelleryProduct;
