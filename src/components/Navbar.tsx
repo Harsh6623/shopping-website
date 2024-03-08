@@ -10,10 +10,10 @@ const Navbar = () => {
             HOME
           </Link>
           <Link className="navbar__link relative" href="Men">
-            MEN'S
+          MEN&apos;S
           </Link>
           <Link className="navbar__link relative" href="Women">
-            WOMEN'S
+            WOMEN&apos;S
           </Link>
           <Link className="navbar__link relative" href="jewellery">
             JEWELRY
