@@ -9,7 +9,7 @@ const AboutUs: React.FC = () => {
       <p className="w-3/5 text-center text-1xl">
         We are an ecommerce website that sells a variety of products. We are
         committed to providing our customers with the best possible shopping
-        experience.
+        experience.  
       </p>
       <div className="flex justify-center items-center gap-6">
         <Image className="w-1/4 shadow-lg hover:shadow-2xl" src="a1.jpg" alt="" />

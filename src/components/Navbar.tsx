@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
           <Link className="navbar__link relative" href="Perfume">
             PERFUME
-          </Link>
+          </Link>  
           <Link className="navbar__link relative" href="About">
             ABOUT US
           </Link>
